@@ -13,3 +13,7 @@ if __name__ == '__main__':
     print('\nCollected basic information:')
     for key, value in basic_info.items():
         print(f'{key.capitalize()}: {value}')
+
+
+st.write(main_df)
+
